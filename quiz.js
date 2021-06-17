@@ -96,6 +96,7 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
+  const resetButton = document.getElementById("reset");
   // Questions to be asked
   const myQuestions = [
     {
@@ -144,4 +145,11 @@
   submitButton.addEventListener("click", showResults);
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
+  resetButton.addEventListener(
+    "click",
+    function (e) {
+      location.reload();
+    },
+    false
+  );
 })();

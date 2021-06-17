@@ -21,7 +21,7 @@ h1 {
 }
 
 .question {
-  font-size: 30px;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(10, 53, 95);
+  background-color: rgb(5, 36, 66);
 }
 
 .slide {
@@ -70,4 +70,14 @@ button:hover {
   position: relative;
   height: 200px;
   margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1.3rem;
+  }
 }
