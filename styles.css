@@ -1,24 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-size: 20px;
-  font-family: "Work Sans", sans-serif;
-  color: #333;
+  font-family: "Roboto Slab", serif;
+  color: rgb(8, 35, 61);
   font-weight: 300;
   text-align: center;
   background-color: #f8f6f0;
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 500;
   margin: 0px;
   padding: 10px;
-  font-size: 20px;
-  background-color: #444;
+  font-size: 2.5rem;
+  background-color: rgb(10, 53, 95);
   color: #fff;
 }
 
@@ -39,9 +37,8 @@ h1 {
 }
 
 button {
-  font-family: "Work Sans", sans-serif;
-  font-size: 22px;
-  background-color: #279;
+  font-size: 1.5rem;
+  background-color: rgb(10, 53, 95);
   color: #fff;
   border: 0px;
   border-radius: 3px;
@@ -51,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: #38a;
+  background-color: rgb(10, 53, 95);
 }
 
 .slide {
